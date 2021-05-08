@@ -34,7 +34,7 @@ class Counting_Con_Vowels
 						if(word.charAt(i)=='a'||word.charAt(i)=='e'||word.charAt(i)=='i'||word.charAt(i)=='o'||word.charAt(i)=='u'){
 							vowcount++;
 						}
-						else{
+						else if(Character.isLetter(word.charAt(i))){
 							concount++;
 						}
 
