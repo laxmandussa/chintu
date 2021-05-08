@@ -14,7 +14,7 @@ class Counting_Con_Vowels
 			concount=0;
 			System.out.println("Enter your word");
 			word=sc.nextLine().toLowerCase();
-			word.trim();
+			word=word.trim();
 			System.out.println();
 
 			if(word.isEmpty()){
