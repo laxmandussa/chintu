@@ -4,6 +4,7 @@ class Multipliction_Bunch_Of_Elements{
 	static String con="yes";
 	public static void main(String[] args) {
 		while(con.equals("yes")){
+			sum=1;
 			Scanner sc=new Scanner(System.in);
 			System.out.println("enter numbers like(1*2*3): ");
 			String num=sc.nextLine();
