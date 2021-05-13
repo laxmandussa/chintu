@@ -5,7 +5,7 @@ class Adding_Bunch_Of_Elements{
 	public static void main(String[] args) {
 		while(con.equals("yes")){
 			Scanner sc=new Scanner(System.in);
-			System.out.println("enter numbers like(1+2): ");
+			System.out.println("enter numbers like(1+2+3): ");
 			String num=sc.nextLine();
 			System.out.println();
 			if(num.isEmpty()){
