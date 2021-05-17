@@ -138,7 +138,7 @@ class MatrixAddition{
 				}
 				System.out.println();
 				System.out.println("if want to continue enter yes otherwise no");
-				con=scr.next();
+				con=scr.next().toLowerCase();
 				System.out.println();
 			}
 			catch(InputMismatchException e){
